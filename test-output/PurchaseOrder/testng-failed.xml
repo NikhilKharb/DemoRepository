@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [PurchaseOrder]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Errorvalidations(failed)">
+    <classes>
+      <class name="E2EFrameWork.ErrorValidations">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="launchApplication"/>
+          <include name="LoginErrorValidation"/>
+        </methods>
+      </class> <!-- E2EFrameWork.ErrorValidations -->
+    </classes>
+  </test> <!-- Errorvalidations(failed) -->
+</suite> <!-- Failed suite [PurchaseOrder] -->

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-23T22:07:24 IST" name="Suite" finished-at="2024-05-23T22:08:07 IST" duration-ms="43459">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidations.LoginErrorValidation()[pri:0, instance:E2EFrameWork.ErrorValidations@1e16c0aa]" name="LoginErrorValidation" class="E2EFrameWork.ErrorValidations"/>
+      </group> <!-- ErrorHandling -->
+      <group name="purchaseOrder">
+        <method signature="E2E.submitOrder(java.util.HashMap)[pri:0, instance:E2EFrameWork.E2E@43f02ef2]" name="submitOrder" class="E2EFrameWork.E2E"/>
+        <method signature="E2E.checkOrderHistory(java.util.HashMap)[pri:0, instance:E2EFrameWork.E2E@43f02ef2]" name="checkOrderHistory" class="E2EFrameWork.E2E"/>
+      </group> <!-- purchaseOrder -->
+    </groups>
+    <test started-at="2024-05-23T22:07:24 IST" name="Errorvalidations" finished-at="2024-05-23T22:07:44 IST" duration-ms="20337">
+      <class name="E2EFrameWork.ErrorValidations">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:E2EFrameWork.ErrorValidations@1e16c0aa]" started-at="2024-05-23T22:07:24 IST" name="launchApplication" finished-at="2024-05-23T22:07:32 IST" duration-ms="8057" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="CheckItemsInCatalog()[pri:0, instance:E2EFrameWork.ErrorValidations@1e16c0aa]" started-at="2024-05-23T22:07:32 IST" name="CheckItemsInCatalog" finished-at="2024-05-23T22:07:32 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckItemsInCatalog -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:E2EFrameWork.ErrorValidations@1e16c0aa]" started-at="2024-05-23T22:07:32 IST" name="closeBrowser" finished-at="2024-05-23T22:07:33 IST" duration-ms="1411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:E2EFrameWork.ErrorValidations@1e16c0aa]" started-at="2024-05-23T22:07:33 IST" name="launchApplication" finished-at="2024-05-23T22:07:42 IST" duration-ms="8630" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="LoginErrorValidation()[pri:0, instance:E2EFrameWork.ErrorValidations@1e16c0aa]" started-at="2024-05-23T22:07:42 IST" name="LoginErrorValidation" finished-at="2024-05-23T22:07:43 IST" duration-ms="727" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginErrorValidation -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:E2EFrameWork.ErrorValidations@1e16c0aa]" started-at="2024-05-23T22:07:43 IST" name="closeBrowser" finished-at="2024-05-23T22:07:44 IST" duration-ms="1383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- E2EFrameWork.ErrorValidations -->
+    </test> <!-- Errorvalidations -->
+    <test started-at="2024-05-23T22:07:24 IST" name="SubmitOrder" finished-at="2024-05-23T22:08:07 IST" duration-ms="43459">
+      <class name="E2EFrameWork.E2E">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:E2EFrameWork.E2E@43f02ef2]" started-at="2024-05-23T22:07:24 IST" name="launchApplication" finished-at="2024-05-23T22:07:33 IST" duration-ms="9170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:E2EFrameWork.E2E@43f02ef2]" started-at="2024-05-23T22:07:33 IST" name="submitOrder" data-provider="getData" finished-at="2024-05-23T22:07:40 IST" duration-ms="6878" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Nikhil@7313, item=ADIDAS ORIGINAL, email=nikhil.kharb@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:E2EFrameWork.E2E@43f02ef2]" started-at="2024-05-23T22:07:40 IST" name="closeBrowser" finished-at="2024-05-23T22:07:42 IST" duration-ms="1452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:E2EFrameWork.E2E@43f02ef2]" started-at="2024-05-23T22:07:42 IST" name="launchApplication" finished-at="2024-05-23T22:07:47 IST" duration-ms="5034" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:E2EFrameWork.E2E@43f02ef2]" started-at="2024-05-23T22:07:47 IST" name="submitOrder" data-provider="getData" finished-at="2024-05-23T22:07:53 IST" duration-ms="6604" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Nikhil@7313, item=ZARA COAT 3, email=nikhil.kharb@hmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:E2EFrameWork.E2E@43f02ef2]" started-at="2024-05-23T22:07:53 IST" name="closeBrowser" finished-at="2024-05-23T22:07:55 IST" duration-ms="1441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:E2EFrameWork.E2E@43f02ef2]" started-at="2024-05-23T22:07:55 IST" name="launchApplication" finished-at="2024-05-23T22:07:58 IST" duration-ms="2816" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="checkOrderHistory(java.util.HashMap)[pri:0, instance:E2EFrameWork.E2E@43f02ef2]" started-at="2024-05-23T22:07:58 IST" name="checkOrderHistory" data-provider="getData" finished-at="2024-05-23T22:07:59 IST" depends-on-methods="E2EFrameWork.E2E.submitOrder" duration-ms="995" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Nikhil@7313, item=ADIDAS ORIGINAL, email=nikhil.kharb@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOrderHistory -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:E2EFrameWork.E2E@43f02ef2]" started-at="2024-05-23T22:07:59 IST" name="closeBrowser" finished-at="2024-05-23T22:08:00 IST" duration-ms="1416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:E2EFrameWork.E2E@43f02ef2]" started-at="2024-05-23T22:08:00 IST" name="launchApplication" finished-at="2024-05-23T22:08:05 IST" duration-ms="4691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="checkOrderHistory(java.util.HashMap)[pri:0, instance:E2EFrameWork.E2E@43f02ef2]" started-at="2024-05-23T22:08:05 IST" name="checkOrderHistory" data-provider="getData" finished-at="2024-05-23T22:08:06 IST" depends-on-methods="E2EFrameWork.E2E.submitOrder" duration-ms="1157" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Nikhil@7313, item=ZARA COAT 3, email=nikhil.kharb@hmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOrderHistory -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:E2EFrameWork.E2E@43f02ef2]" started-at="2024-05-23T22:08:06 IST" name="closeBrowser" finished-at="2024-05-23T22:08:07 IST" duration-ms="1435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- E2EFrameWork.E2E -->
+    </test> <!-- SubmitOrder -->
+  </suite> <!-- Suite -->
+</testng-results>
