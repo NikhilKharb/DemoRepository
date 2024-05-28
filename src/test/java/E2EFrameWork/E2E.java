@@ -38,6 +38,8 @@ public class E2E extends BaseTest {
 		OrderDetails orderDetails = checkOutPage.placeOrder(NameOnCard, cvv, countryinitials);
 
 		orderDetails.getOrderNo();
+		System.out.println(orderDetails);
+		System.out.println(products);
 
 	}
 
